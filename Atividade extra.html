@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAMA MAIS WEB</title>
+    <style>
+        body {
+            font-family: adobe-naskh, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background: url('https://t3.ftcdn.net/jpg/01/26/35/58/360_F_126355834_UU0Q9hZQLD3xsjs8X6V1jb0tyIjfM3zg.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            color: black;
+        }
+
+        .header h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+
+        .header sbv{
+           margin-bottom: 100px;
+           margin-top: 10px;
+        }
+
+        .header p{
+            margin-top: -15px;
+            color: rgb(83, 83, 83)
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 40px;
+        }
+        .card {
+            text-align: center;
+            max-width: 250px;
+        }
+        .card img {
+            width: 65px;
+        }
+        .card a {
+            text-decoration: none;
+            font-size: 1.0em;
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <sbv>Seja Bem-Vindo</sbv>
+        <h1>PROGRAMA MAIS WEB</h1>
+        <p>O melhor site de ensino WEB do Brasil.</p>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="HTML">
+            <h2><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a></h2>
+            <p>Linguagem de marcação utilizada para construção de páginas web.</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS">
+            <h2><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a></h2>
+            <p>Linguagem de estilo utilizada na personalização de páginas web.</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYBaM0ND92IA34hLmqHk_m9RPSsBWMCCymAA&s" alt="JavaScript">
+            <h2><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a></h2>
+            <p>Permite interações entre componentes da web.</p>
+        </div>
+    </div>
+</body>
+</html>
